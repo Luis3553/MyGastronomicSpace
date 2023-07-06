@@ -1,0 +1,141 @@
+.secondBox {
+    border-left:  2px dotted rgb(98, 98, 98);
+    border-right: 2px dotted rgb(98, 98, 98);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+}
+
+.chef {
+    width: 90%;
+    margin: 10px 0px 50px;
+}
+
+.btn1-box {
+    margin: 10px 0px 30px 0px;
+}
+
+.btn1-box, .btn2-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-create,
+.btn-recipes {
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn-create {
+    padding: 30px 60px;
+    position: relative;
+}
+
+.btn-create:hover {
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5), 0px -5px 30px 0px rgba(255, 140, 140, 0.9);
+    padding: 30px 65px;
+    background-color: brown;
+    color: white;
+}
+
+.icons-box1 {
+    display: flex;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    column-gap: 20px;
+    transition: all 0.5s;
+    z-index: -2;
+    width: fit-content;
+}
+
+.btn-create:hover .icons-box1 {
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    top: -22px;
+    column-gap: 60px;
+}
+
+/* individual ico setting */
+.ico {
+    width: 36px;
+}
+
+.ico1 {
+    rotate: -30deg;
+}
+
+.ico2 {
+    rotate: 20deg;
+}
+
+.ico3 {
+    rotate: -100deg;
+}
+
+.ico4 {
+    rotate: 20deg;
+}
+/* individual ico setting */
+
+.btn-recipes {
+    padding: 30px 57px;
+    position: relative;
+}
+
+.btn-recipes:hover {
+    background-color: rgb(59, 134, 247);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3), 0px 0px 30px rgb(154, 199, 255);
+    color: white;
+    padding: 30px 60px;
+}
+
+.icons-box2 {
+    display: block;
+    z-index: -2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.xd3 {
+    opacity: 0;
+    display: flex;
+    column-gap: 0px;
+    transition: all 0.5s;
+    margin-bottom: 0px;
+}
+
+.btn-recipes:hover .xd3 {
+    opacity: 1;
+    column-gap: 280px;
+    margin-bottom: 20px;
+}
+
+.ico5 {
+    rotate: -35deg;
+}
+
+.ico6 {
+    rotate: 40deg;
+}
+
+.ico7 {
+    rotate: 25deg;
+}

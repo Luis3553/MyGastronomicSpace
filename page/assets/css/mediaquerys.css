@@ -1,0 +1,269 @@
+@media only screen and (max-width: 280px) {
+    .firstBox h2 {
+        font-size: 1.2rem;
+    }
+
+    .btn-create {
+        padding: calc(25px - 0.3vw) 15%;
+    }
+
+    .btn-create:hover {
+        padding: calc(25px - 0.3vw) calc(15% + 0.3vw);
+    }
+
+    .ico {
+        width: calc(30px - 0.2vw);
+    }
+
+    .btn-create:hover .icons-box1 {
+        column-gap: 40px;
+    }
+
+    .btn-recipes {
+        padding: calc(25px - 0.3vw) 13%;
+    }
+    .btn-recipes:hover {
+        padding: calc(25px - 0.3vw) calc(13% + 0.3vw);
+    }
+
+    .btn-recipes:hover .xd3 {
+        column-gap: 200px
+    }
+
+    .btn-create,
+    .btn-recipes {
+        font-size: 0.9rem;
+    }
+
+    .recipe {
+        width: 120px;
+    }
+
+    .recipeBkg {
+        height: 120px;
+    }
+
+    .btnOptions {
+        width: 20px;
+    }
+
+    .btnOptions2, .btnOptions3 {
+        width: 27px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background: repeating-linear-gradient(white,
+                bisque);
+        /* background-size: cover; */
+        height: 100%;
+        position: relative;
+    }
+
+    .chef {
+        width: 80vw;
+    }
+
+    .page {
+        flex-direction: column;
+        row-gap: 30px;
+        justify-content: none;
+    }
+
+    .firstBox {
+        order: 2;
+        border-top:  2px dotted rgb(98, 98, 98);
+        border-bottom: 2px dotted rgb(98, 98, 98);
+        padding: 30px 0px;
+    }
+
+    .secondBox {
+        order: 1;
+        border: none;
+    }
+
+    .thirdBox {
+        order: 3;
+    }
+
+    .bkg, .bkg3 {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        padding: 40px 20px 30px;
+    }
+
+    .firstCage, .firstCage2 {
+        grid-row: 1 / 2;
+    }
+    
+    .secondCage {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
+    .thirdCage {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+
+    .CageTextarea {
+        height: 300px;
+    }
+
+    .bkg2 {
+        height: fit-content;
+        max-height: 95%;
+        padding: 40px 20px;
+    }
+
+    .recipeContainer {
+        height: fit-content;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background: repeating-linear-gradient(white,
+                bisque);
+        /* background-size: cover; */
+        height: 100%;
+        position: relative;
+    }
+
+    .chef {
+        width: 80vw;
+    }
+
+    .page {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .firstBox {
+        order: 2;
+        border-top:  2px dotted rgb(98, 98, 98);
+        border-bottom: 2px dotted rgb(98, 98, 98);
+        padding: 30px 0px;
+    }
+
+    .secondBox {
+        order: 1;
+        border: none;
+    }
+
+    .thirdBox {
+        order: 3;
+    }
+
+    .bkg {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        padding: 40px 20px 30px;
+        height: fit-content;
+        top: 30%;
+    }
+
+    .bkg3 {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        padding: 40px 20px 30px;
+        top: 25%;
+        height: fit-content;
+    }
+
+    .firstCage, .firstCage2 {
+        grid-row: 1 / 2;
+    }
+    
+    .secondCage {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
+    .thirdCage {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+
+    .CageTextarea {
+        height: 300px;
+    }
+
+    .bkg2 {
+        height: fit-content;
+        max-height: 95%;
+        padding: 40px 20px;
+        top: 20%;
+    }
+
+    .bkg3
+
+    .recipeContainer {
+        height: fit-content;
+    }
+
+    .recipe {
+        width: 130px;
+    }
+
+    .recipeBkg {
+        height: 130px;
+    }
+
+    .btnOptions {
+        width: 20px;
+    }
+
+    .btnOptions2, .btnOptions3 {
+        width: 27px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .firstBox h2 {
+        font-size: 1.2rem;
+    }
+
+    .btn-create {
+        padding: calc(25px - 0.3vw) 15%;
+    }
+
+    .btn-create:hover {
+        padding: calc(25px - 0.3vw) calc(15% + 0.3vw);
+    }
+
+    .ico {
+        width: calc(30px - 0.2vw);
+    }
+
+    .btn-create:hover .icons-box1 {
+        column-gap: 40px;
+    }
+
+    .btn-recipes {
+        padding: calc(25px - 0.3vw) 13%;
+    }
+    .btn-recipes:hover {
+        padding: calc(25px - 0.3vw) calc(13% + 0.3vw);
+    }
+
+    .btn-recipes:hover .xd3 {
+        column-gap: 200px
+    }
+
+    .btn-create,
+    .btn-recipes {
+        font-size: 0.9rem;
+    }
+
+    .recipeContainer {
+        height: fit-content;
+    }
+
+    .bkg2 {
+        height: fit-content;
+        padding: 30px 20px;
+        max-height: 85%;
+    }
+}

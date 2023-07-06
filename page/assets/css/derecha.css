@@ -1,0 +1,10 @@
+.thirdBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.cuaderno {
+    width: 90%;
+}
