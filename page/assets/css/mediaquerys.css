@@ -194,7 +194,7 @@
         height: fit-content;
         max-height: 95%;
         padding: 40px 20px;
-        top: 20%;
+        position: fixed;
     }
 
     .bkg3
