@@ -112,13 +112,13 @@
     }
 
     .bkg2 {
-        height: fit-content;
-        max-height: 95%;
+        min-height: 30%;
         padding: 40px 20px;
+        position: fixed;
     }
 
     .recipeContainer {
-        height: fit-content;
+        height: 100%;
     }
 }
 
@@ -191,16 +191,14 @@
     }
 
     .bkg2 {
-        height: fit-content;
+        min-height: 40%;
         max-height: 95%;
         padding: 40px 20px;
         position: fixed;
     }
 
-    .bkg3
-
     .recipeContainer {
-        height: fit-content;
+        height: 80%;
     }
 
     .recipe {
