@@ -93,6 +93,10 @@
         padding: 40px 20px 30px;
     }
 
+    .bkg3 {
+        height: fit-content;
+    }
+
     .firstCage, .firstCage2 {
         grid-row: 1 / 2;
     }
