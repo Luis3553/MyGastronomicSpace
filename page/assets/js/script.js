@@ -193,12 +193,14 @@ function createRecipe(recipe) {
     btnOptions3.src = lapiz;
     btnOptions3.addEventListener('click', () => {
         editRecipes(recipeBox);
+        document.querySelector('.bkg2').style.display = 'none';
+        document.querySelector('.blackBkg').style.display = 'none';
     });
 
     recipeBkg.addEventListener('click', () => {
         seeRecipes(recipeBox);
-        document.querySelector('.bkg2').remove();
-        document.querySelector('.blackBkg').remove();
+        document.querySelector('.bkg2').style.display = 'none';
+        document.querySelector('.blackBkg').style.display = 'none';
     });
     textCage.addEventListener('click', () => {
         seeRecipes(recipeBox);
@@ -298,6 +300,8 @@ function seeRecipes(recipeBox) {
     deleteBtn.addEventListener('click', () => {
         blackBkg.remove();
         background3.remove();
+        document.querySelector('.bkg2').style.display = 'flex';
+        document.querySelector('.blackBkg').style.display = 'block';
     });
 
     firstCage.append(nameOfRecipe, bkgPreviewImage, descriptionHeader, descriptionTextarea);
@@ -377,6 +381,8 @@ function editRecipes(recipeBox) {
     deleteBtn.addEventListener('click', () => {
         blackBkg.remove();
         background.remove();
+        document.querySelector('.bkg2').style.display = 'flex';
+        document.querySelector('.blackBkg').style.display = 'block';
     });
 
     // save button //
